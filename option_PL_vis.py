@@ -1,14 +1,7 @@
-"""
-fig.add_trace(go.Scatter(
-    x=x[neg_mask], y=y[neg_mask], fill='tozeroy', fillcolor='rgba(255, 0, 0, 0.1)', line=dict(color='black', width=2), name='Loss', showlegend=False)
-) """
-
 import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-import streamlit.components.v1 as stc
 #st.set_page_config(layout="wide")
 
 def PL_colorfill(x, y):
